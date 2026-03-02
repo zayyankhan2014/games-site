@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Slope — Fun Games Hub</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    #slopecanvas{background:#1a1a2e;display:block;margin:1rem auto;border:2px solid #444}
+    .controls{text-align:center;margin-bottom:0.5rem}
+    #slopeScore{font-weight:bold;margin-left:1rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Slope</h2>
+    <div class="controls">
+      <button id="slopeStart">Start/Restart</button>
+      <span>Use LEFT/RIGHT arrow keys or A/D to move</span>
+      <span id="slopeScore"></span>
+    </div>
+    <canvas id="slopecanvas" width="400" height="300"></canvas>
+    <p><a href="/games.html">Back to games</a></p>
+  </div>
+  <script src="../js/slope.js"></script>
+</body>
+</html>

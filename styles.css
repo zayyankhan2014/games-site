@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.4;margin:0;color:#1f2937}
+.container{max-width:900px;margin:0 auto;padding:1rem}
+.site-header{background:#0f172a;color:#fff}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{margin:0;padding:0.5rem 0}
+nav a{color:#cbd5e1;margin-left:1rem;text-decoration:none}
+.hero{padding:2rem 0;text-align:center}
+.btn{display:inline-block;background:#6366f1;color:#fff;padding:0.6rem 1rem;border-radius:6px;text-decoration:none}
+.btn.small{padding:0.4rem 0.6rem;font-size:0.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.card{background:#fff;border:1px solid #e6eef8;padding:1rem;border-radius:8px}
+.site-footer{background:#0b1220;color:#9ca3af;padding:1rem;margin-top:2rem;text-align:center}
+.games-board{display:grid;grid-template-columns:repeat(3,100px);gap:8px;justify-content:center}
+.cell{width:100px;height:100px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border-radius:6px;font-size:2rem;cursor:pointer;border:1px solid #e2e8f0}
+.controls{margin-top:1rem;text-align:center}
+.memory-grid{display:grid;grid-template-columns:repeat(4,100px);gap:10px;justify-content:center}
+.card-face{width:100px;height:100px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:#93c5fd;font-size:1.2rem;color:#062;
+}
+.card-back{background:#111827;color:#fff}
+
+/* tetris canvas box */
+canvas#tetris{border:2px solid #333;background:#000;display:block;margin:0 auto}
